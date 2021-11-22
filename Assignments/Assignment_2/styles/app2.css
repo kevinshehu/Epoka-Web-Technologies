@@ -1,0 +1,41 @@
+.container {
+    margin: 20px;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+
+    border: 5px solid black;
+    width: 50%;
+    height: auto;
+
+    background-color:darkcyan;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-decoration: red wavy overline underline;
+}
+
+.container>input{
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+#register {
+    background-color: green;
+    color: white;
+}
+
+#back {
+    background-color: red;
+    color: white;
+}

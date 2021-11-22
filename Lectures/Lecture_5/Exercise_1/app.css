@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  font-family: "Roboto";
+  font-size: 30vmin;
+  text-align: center;
+  background: radial-gradient(#f12711, #f5af19);
+}

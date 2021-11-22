@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 80px;
+    display: inline-block;
+}
+
+div {
+    display: inline;
+}
+
+.container {
+    margin: 20px;
+}

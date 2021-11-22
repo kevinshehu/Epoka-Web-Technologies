@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/app2.css">
+    <title>Page 2</title>
+</head>
+
+<body>
+    <div class="mainDiv">
+
+        <form action="">
+            <h1>Registration Form:</h1>
+
+            <div class="container">
+                <label for="firstName">First name:</label> <br>
+                <input type="text" name="firstName" required>
+            </div>
+
+            <div class="container">
+                <label for="lastName">Last name:</label> <br>
+                <input type="text" name="lastName" required>
+            </div>
+
+            <div class="container">
+                <p>Gender:</p>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="html">Male</label>
+                <br>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="css">Female</label>
+                <br>
+
+                <input type="radio" id="nonbinary" name="gender" value="Non Binary">
+                <label for="javascript">Non Binary</label>
+            </div>
+
+            <div class="container">
+                <p>Education:</p>
+
+                <input type="checkbox" id="highschool" name="highschool" value="High School">
+                <label for="highschool">High School</label><br>
+
+                <input type="checkbox" id="bachelor" name="bachelor" value="Bachelor">
+                <label for="bachelor">Bachelor</label><br>
+
+                <input type="checkbox" id="master" name="master" value="Master">
+                <label for="master">Master</label><br>
+
+                <input type="checkbox" id="phd" name="phd" value="PHD">
+                <label for="phd">PHD</label><br>
+            </div>
+
+            <div class="container">
+                <label for="username" required>Username</label> <br>
+                <input type="text" name="username">
+            </div>
+
+            <div class="container">
+                <label for="role">Role</label> <br>
+                <input type="text" name="role" value="Student" readonly>
+            </div>
+
+            <div class="container">
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="" required>
+            </div>
+
+            <div class="container">
+                <label for="birthdate" required>Birth Date</label> <br>
+                <input type="date" min="2000-01-01">
+            </div>
+
+            <div class="container">
+                <label for="year">Study years: </label>
+                <input type="number" name="year" id="year" min="0" max="5" required> <br>
+            </div>
+
+            <div class="container">
+                <label for="phoneNO">Phone Number:</label> <br>
+                <input type="number" required>
+            </div>
+
+            <div class="container">
+                <label for="language">Select programing language:</label> <br>
+                <select name="language" id="language" required>
+                    <option value="" selected>Please select something</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="c++">C++</option>
+                    <option value="c#">C#</option>
+                </select><br><br>
+            </div>
+
+            <div class="container">
+                <label for="description">Describe yourself</label> <br>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea> <br>
+            </div>
+
+            <div class="container">
+                <button type="submit" id="register">Register</button>
+                <a href="index1.html"><button value="ignore" id="back" formnovalidate>Back</button></a>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
